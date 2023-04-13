@@ -22,7 +22,6 @@ const handleSubmit = (e) => {
     }).then (() => {
         console.log("Blog Updated");
         setIsPending(false);
-        // history.go(-1);
         history.push("/");
     })
 
